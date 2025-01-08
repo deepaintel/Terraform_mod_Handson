@@ -1,5 +1,5 @@
 module "provision_ec2" {
-  source = "git@github.com:deepaintel/Terraform_mod_Handson.git//module"
+  source = "git::https://github.com/deepaintel/Terraform_mod_Handson.git//module?ref=main"
   amiid  = var.amiid
   cidr   = var.cidr
   ins_type = var.ins_type
